@@ -1,0 +1,54 @@
+## .NET Core ##
+# Build results
+bin/
+obj/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# User-specific files
+.vscode/
+.vs/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS for Mac
+.vscode/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test Results
+TestResults/
+
+# DotCover
+.idea/.idea.DotCover/
+
+# Node.js packages
+node_modules/
+
+# IDEs & Editors
+# JetBrains Rider
+.idea/
+# VS Code directories
+.vscode/
