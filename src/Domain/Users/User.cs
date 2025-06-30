@@ -19,5 +19,12 @@ namespace Domain.Users
         public Email Email { get; init; }
         public FirstName FirstName { get; init; }
         public LastName LastName { get; init; }
+
+        public static User Create(Email email, FirstName firstName, LastName lastName)
+        {
+            Guid guid = Guid.NewGuid();
+            User user = new User(guid, email, firstName, lastName);
+            return user;
+        }
     }
 }
