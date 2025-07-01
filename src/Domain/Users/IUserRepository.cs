@@ -8,7 +8,7 @@ namespace Domain.Users
 {
     public interface IUserRepository
     {
-        Task<IEnumerable<User>> GetAllAsync();
+        Task<IEnumerable<User>> GetAllAsync(CancellationToken token = default);
         Task<User?> GetByIdAsync(Guid id, CancellationToken token = default);
         void Add(User user);
     }
