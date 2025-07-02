@@ -7,5 +7,5 @@ using Application.Abstractions.Messaging;
 
 namespace Application.Users.GetUserById
 {
-    internal record GetUserByIdQuery(Guid id):IQuery<UserReponse>;
+    public record GetUserByIdQuery(Guid id):IQuery<UserReponse>;
 }
